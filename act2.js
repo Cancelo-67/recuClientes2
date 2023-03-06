@@ -8,7 +8,7 @@ function isLeapYear(entrada1, entrada2) {
     const añosbisiestos = []
     if (entrada1 >= 2001 && entrada2 <= 2500) {
         for (let i = entrada1; i <= entrada2; i++) {
-            if (i % 4 === 0) {
+            if (i % 4 == 0) {
                 if (i % 100 === 0 && i % 400 === 0) {
                     añosbisiestos.push(i)
                 }
